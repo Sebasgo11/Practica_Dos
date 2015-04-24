@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Punto_3</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="quices">Quices 15% : </string>
+    <string name="exposiciones">Exposicion 10% : </string>
+    <string name="practicas">Practicas 40% : </string>
+    <string name="proyecto">Proyecto 35% :  </string>
+    <string name="msg1">Ingrese La Nota </string>
+    <string name="notadef">Nota Definitiva : </string>
+    <string name="calcular">Calcular</string>
+</resources>

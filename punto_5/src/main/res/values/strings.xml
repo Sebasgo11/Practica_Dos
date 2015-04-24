@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Punto_5</string>
+    <string name="Button">Ok</string>
+    <string name="cedula">Cedula</string>
+    <string name="nombre">Nombre</string>
+    <string name="diginombre">Digite El Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="digicorreo">Digite El Correo</string>
+    <string name="telefono">Telefono</string>
+    <string name="digitelefono">Digite El Teléfono</string>
+    <string name="ok">Ok</string>
+    <string name="sexo">Sexo</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="hobbie">Hobbie</string>
+    <string name="fecha">Nacimiento</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="action_settings">Settings</string>
+    <string name="country_prompt">Seleccione Ciudad</string>
+    <string name="h1">Futbol</string>
+    <string name="h2">Leer</string>
+    <string name="h3">Cine</string>
+    <string name="h4">Nadar</string>
+
+        <string-array name="ciudades">
+            <item>Medellin</item>
+            <item>Cali</item>
+            <item>Bogotá</item>
+            <item>Barranquilla</item>
+            <item>Cartagena</item>
+            <item>Cucuta</item>
+            <item>Ibagué</item>
+            <item>Bucaramanga</item>
+        </string-array>
+
+</resources>

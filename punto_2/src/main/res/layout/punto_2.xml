@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/calc"
+       android:textSize="40dp"
+       android:textColor="@color/black"
+       android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginTop="70px"
+            android:textColor="@color/darkblue"
+            android:text="@string/operando1"
+           />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70px"
+            android:hint="@string/msg1"
+            android:inputType="number"
+            android:textSize="19dp"
+            android:id="@+id/operando1"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:textSize="30dp"
+            android:textColor="@color/darkblue"
+            android:text="@string/operando2"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/msg2"
+            android:layout_marginTop="50px"
+            android:textSize="19dp"
+            android:id="@+id/operando2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroup"
+          >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/suma"
+            android:textColor="@color/darkblue"
+            android:layout_marginLeft="280px"
+            android:layout_marginTop="60px"
+            android:textSize="25dp"
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/isum"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resta"
+            android:textColor="@color/darkblue"
+            android:layout_marginLeft="280px"
+            android:layout_marginTop="30px"
+            android:textSize="25dp"
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/ires"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multiplicacion"
+            android:textColor="@color/darkblue"
+            android:layout_marginLeft="280px"
+            android:layout_marginTop="30px"
+            android:textSize="25dp"
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/imulti"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/division"
+            android:textColor="@color/darkblue"
+            android:layout_marginLeft="280px"
+            android:layout_marginTop="30px"
+            android:textSize="25dp"
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/idiv"/>
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Btn"
+            android:layout_marginLeft="300px"
+            android:layout_marginTop="30px"
+            android:id="@+id/Btn1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="15px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160px"
+                android:textSize="30dp"
+                android:textColor="@color/darkblue"
+                android:text="@string/resultado"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15px"
+                android:textSize="30dp"
+                android:id="@+id/result"
+                android:textColor="@color/black"
+                android:text=""/>
+
+        </LinearLayout>
+
+</LinearLayout>

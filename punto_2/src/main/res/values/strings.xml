@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Punto_2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="operando1">Operando 1:</string>
+    <string name="operando2">Operando 2:</string>
+    <string name="msg1">Ingrese El Operando 1</string>
+    <string name="msg2">Ingrese El Operando 2</string>
+    <string name="suma">Suma</string>
+    <string name="resta">Resta</string>
+    <string name="multiplicacion">Multiplicacion</string>
+    <string name="division">Division</string>
+    <string name="resultado">Resultado:</string>
+    <string name="Btn">Calcular</string>
+    <string name="calc">CALCULADORA</string>
+
+
+</resources>
